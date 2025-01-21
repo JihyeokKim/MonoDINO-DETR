@@ -1,0 +1,6 @@
+logs/
+outputs/
+*.pth
+
+*.pyc
+__pycache__/

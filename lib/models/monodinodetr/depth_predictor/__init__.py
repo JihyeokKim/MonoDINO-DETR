@@ -1,0 +1,2 @@
+from .depth_predictor import DepthPredictor
+from .depth_anything_predictor import DepthAnythingPredictor
