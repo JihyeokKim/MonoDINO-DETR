@@ -168,7 +168,15 @@ This repo benefits from the excellent [MonoDETR](https://github.com/ZrrSkywalker
 ## Citation
 If you find this project useful, please consider citing:
 ```bash
-not yet published
+@misc{kim2025monodinodetrdepthenhancedmonocular3d,
+      title={MonoDINO-DETR: Depth-Enhanced Monocular 3D Object Detection Using a Vision Foundation Model}, 
+      author={Jihyeok Kim and Seongwoo Moon and Sungwon Nah and David Hyunchul Shim},
+      year={2025},
+      eprint={2502.00315},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2502.00315}, 
+}
 ```
 
 ## Contact
