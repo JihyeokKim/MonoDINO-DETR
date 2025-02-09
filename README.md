@@ -1,6 +1,6 @@
 # MonoDINO-DETR:  Depth-Enhanced Monocular 3D Object Detection Using a Vision Foundation Model
 
-Official implementation of 'MonoDINO-DETR: Depth-Enhanced Monocular 3D Object Detection Using a Vision Foundation Model'
+Official implementation of '[MonoDINO-DETR: Depth-Enhanced Monocular 3D Object Detection Using a Vision Foundation Model](https://arxiv.org/abs/2502.00315)'
 
 ## News
 * **[2025-01]** The initial code of MonoDINIO-DETR on KITTI is released! :boom:
