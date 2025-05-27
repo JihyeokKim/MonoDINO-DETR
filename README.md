@@ -4,6 +4,7 @@ Official implementation of '[MonoDINO-DETR: Depth-Enhanced Monocular 3D Object D
 
 ## News
 * **[2025-01]** The initial code of MonoDINIO-DETR on KITTI is released! :boom:
+* **[2025-03]** Accepted for presentation at the IEEE Intelligent Vehicles Symposium (IV 2025). 🎉
 
 ## Introduction
 MonoDINO-DETR is a monocular 3D object detection model and the **first to employ a vision foundation model backbone within a DETR architecture**. By leveraging the [DINOv2](https://github.com/facebookresearch/dinov2) backbone's ability to extract generalized features across diverse vision tasks, it improves the model's performance in both depth and visual feature extraction. For visual feature extraction, the model integrates a Hierarchical Feature Fusion Block for multi-scale detection and 6D Dynamic Anchor Boxes for iterative bounding box refinement, achieving enhanced performance without relying on additional data sources such as LiDAR. For depth features, DINOv2 is paired with a [DPT](https://github.com/isl-org/DPT) head, which is based on the architecture of [Depth Anything V2](https://github.com/DepthAnything/Depth-Anything-V2)—a large-scale pre-trained model for relative depth estimation. By utilizing the pre-trained weights of Depth Anything V2 along with an additional CNN layer, the model achieves better absolute depth estimation, which in turn enhances 3D object detection performance.
